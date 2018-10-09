@@ -1,7 +1,7 @@
-#Aloha Apparel Co. website
+# Aloha Apparel Co. website
 
 ---
-##The Project
+## The Project
 
 The project consisted on developing a static website homepage for an apparel company. The homepage is divided in different sections based on the initial briefing. 
 
@@ -12,16 +12,16 @@ Following the RWD principles, three versions of the website have been created:
 - Desktop
 
 ---
-##Mobile
+## Mobile
 
 ---
-##Tablet
+## Tablet
 
 ---
-##Desktop
+## Desktop
 
 ---
-##Tools used
+## Tools used
 
 
 
