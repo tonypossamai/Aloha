@@ -3,134 +3,188 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Mobile RWD-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" media="all and (min-width: 480px)">
-    <link rel="stylesheet" href="style.css" media="all and (min-width: 720px)">
-    <!-------------->
     <title>Aloha Apparel Co.</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="all and (min-width: 600px)">
+    <link rel="stylesheet" href="css/style.css" media="all and (min-width: 1240px)">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <header>
-        <nav class="nav-container">
-            <div class="logo">
-                <img src="images/aloha-logo.svg" alt="Aloha Logo">
-            </div>
-            <div>
-                <ul class="menu">
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="shop.html">SHOP</a></li>
-                    <li><a href="features.html">FEATURES</a></li>
-                    <li><a href="updates.html">UPDATES</a></li>
-                </ul>
-            </div>
-            <div class="cart">
-                <img src="images/cart-icon.svg" alt="Cart icon">
-            </div>
+    <header class="header">
+        <div class="logo">
+            <img src="images/aloha-logo.svg" alt="Aloha Logo">
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a>ABOUT</a></li>
+                <li><a id="shop">SHOP</a></li>
+                <li><a id="features">FEATURES</a></li>
+                <li><a>UPDATES</a></li>
+            </ul>
         </nav>
+
+        <div class="cart">
+            <img src="images/cart-icon.svg" alt="Cart icon">
+        </div>
     </header>
 
+
+
     <article>
+
         <section class="banner">
             <h2>NEW COLLECTION</h2>
-            <h1>Spring Summer 2019</h1>
+            <h1>Spring/Summer 2019</h1>
         </section>
+
         <section class="hand-crafted">
             <h1><span class="italic">Hand-Crafted</span> Styles</h1>
-            <p>Aloha Appeal Co. sells only the finest ready-to-travel clothing. Browse our<br>current selection
+            <p>Aloha Appeal Co. sells only the finest ready-to-travel clothing. Browse our current selection
                 of products or sign up for updates below.</p>
         </section>
 
         <section>
-            <div class="container-1">
+            <div class="container">
                 <div class="mens">MEN'S</div>
                 <div class="trends">TRENDS</div>
                 <div class="glasses">GLASSES</div>
-            </div>
-            <div class="container-2">
                 <div class="sale">SALE</div>
                 <div class="bags">BAGS</div>
                 <div class="womens">WOMEN'S</div>
             </div>
         </section>
 
-        <section class="featured">
+        <section class="featured" id="test">
             <h1><span class="italic">Most-Loved</span> Products</h1>
         </section>
 
-        <section class="carousel">
+        <section class="products">
 
-            <div>
-                <img src="images/stretch-knit-dress.jpg">
-                <h5>DRESSES</h5>
-                <h3>Strech Knit Dress</h3>
-                <h5>$169.00</h5>
-            </div>
+            <div class="main-carousel">
 
-            <div>
-                <img src="images/cotton-blue-shirt.jpg">
-                <h5>SHIRTS</h5>
-                <h3>Cotton Blue Shirt</h3>
-                <h5>$89.00</h5>
-            </div>
+                <div class="carousel-cell">
+                    <div class="item">
+                        <img src="images/stretch-knit-dress.jpg">
+                        <p>DRESSES</p>
+                        <h3>Stretch Knit Dress</h3>
+                        <p>$169.00</p>
+                    </div>
+                </div>
 
-            <div>
-                <img src="images/checked-stretch-dress.jpg">
-                <h5>DRESSES</h5>
-                <h3>Checked Strech Dress</h3>
-                <h5>$129.00</h5>
-            </div>
-            <div>
-                <img src="images/blue-hipster-backpack.jpg">
-                <h5>BAGS</h5>
-                <h3>Blue Hipster Backpack</h3>
-                <h5>$69.00</h5>
+                <div class="carousel-cell">
+                    <div class="item tablet" id="tablet">
+                        <img src="images/cotton-blue-shirt.jpg">
+                        <p>SHIRTS</p>
+                        <h3>Cotton Blue Shirt</h3>
+                        <p>$89.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/checked-stretch-dress.jpg">
+                        <p>DRESSES</p>
+                        <h3>Checked Stretch Dress</h3>
+                        <p>$129.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/blue-hipster-backpack.jpg">
+                        <p>BAGS</p>
+                        <h3>Blue Hipster Backpack</h3>
+                        <p>$69.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/cotton-yellow-tshirt.jpg">
+                        <p>SHIRTS</p>
+                        <h3>Cotton Yellow Shirt</h3>
+                        <p>$29.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/blue-silk-dress.jpg">
+                        <p>DRESSES</p>
+                        <h3>Blue Silk Dress</h3>
+                        <p>$109.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/pink-dotted-dress.jpg">
+                        <p>DRESSES</p>
+                        <h3>Pink Dotted Dress</h3>
+                        <p>$99.00</p>
+                    </div>
+                </div>
+
+                <div class="carousel-cell">
+                    <div class="item desktop" id="desktop">
+                        <img src="images/demin-overall-shorts.jpg">
+                        <p>DENIM</p>
+                        <h3>Denim Overwall Shorts</h3>
+                        <p>$89.00</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="sign-up">
 
             <h1><span class="italic">Sign-up for</span> Updates</h1>
-            <p>Stay updated on our latest products releases, be first to find out<br>about upcoming sales,
+            <p>Stay updated on our latest products releases, be first to find out about upcoming sales,
                 and get free style tips from our blog. Unsubscribe at any time.</p>
 
-            <form id="form" action="process.php">
-                <input type="email" name="email" id="email" placeholder="name@domain.com" required>
-                <button type="submit" class="subscribe">Subscribe</button>
+            <form id="form">
+                <input type="email" name="email" class="email-box" id="email" placeholder="Your e-mail" required>
+                <input type="submit" name="action" value="Subscribe" class="subscribe-button" />
             </form>
         </section>
-        
+
     </article>
 
     <footer>
         <div class="footer-text">
             <p>© 2018 Aloha Apparel Co.</p>
-            <p>Powered by HTML & CSS.</p>
+            <p>Powered by HTML and CSS.</p>
             <br>
-            <p>603-571-0008.
-                <p><a href="mailto:info@example.com?subject=email%20subject">info@alohaapparel.co.uk</a></p>
-                <br>
-                <address>
-                    <p>1490 W Broadway</p>
-                    <p>Vancouver, BC, Canada</p>
-                </address>
+            <p>604-604-6040. <e-mail>info@alohaapparel.com</e-mail>
+            </p>
+            <br>
+            <address>
+                <p>1490 W Broadway</p>
+                <p>Vancouver, BC, Canada</p>
+            </address>
         </div>
         <div class="social-media">
             <ul>
-                <li class="facebook"> Facebook</li>
-                <li class="twitter"> Twitter</li>
-                <li class="instagram"> Instagram</li>
-                <li class="pinterest"> Pinterest</li>
-                <li class="google"> Google+</li>
+                <li class="facebook"><a>Facebook</a></li>
+                <li class="twitter"><a>Twitter</a></li>
+                <li class="instagram"><a>Instagram</a></li>
+                <li class="pinterest"><a>Pinterest</a></li>
+                <li class="google"><a>Google+</a></li>
             </ul>
         </div>
     </footer>
+
+    <script src="js/jQuery-3.3.1.js"></script>
+    <script src="js/flickity.pkgd.js "></script>
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
