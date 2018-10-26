@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <div class="logo">
             <img src="images/aloha-logo.svg" alt="Aloha Logo">
         </div>
@@ -50,14 +50,17 @@
         </section>
 
         <section>
-            <div class="container">
-                <div class="mens">MEN'S</div>
-                <div class="trends">TRENDS</div>
-                <div class="glasses">GLASSES</div>
-                <div class="sale">SALE</div>
-                <div class="bags">BAGS</div>
-                <div class="womens">WOMEN'S</div>
-            </div>
+
+            <main id="main" class="site-main" tabindex="-1">
+                <div class="container">
+                    <div class="mens">MEN'S</div>
+                    <div class="trends">TRENDS</div>
+                    <div class="glasses">GLASSES</div>
+                    <div class="sale">SALE</div>
+                    <div class="bags">BAGS</div>
+                    <div class="womens">WOMEN'S</div>
+                </div>
+            </main>
         </section>
 
         <section class="featured" id="test">
@@ -149,7 +152,7 @@
             <p>Stay updated on our latest products releases, be first to find out about upcoming sales,
                 and get free style tips from our blog. Unsubscribe at any time.</p>
 
-            <form id="form">
+            <form>
                 <input type="email" name="email" class="email-box" id="email" placeholder="Your e-mail" required>
                 <input type="submit" name="action" value="Subscribe" class="subscribe-button" />
             </form>

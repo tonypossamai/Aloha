@@ -5,6 +5,7 @@
     border: 0;
 }
 
+
 /* Fonts */
 
 @font-face {
@@ -114,16 +115,16 @@
 
 /* Header */
 
-.header {
+header {
     width: 100%;
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
 }
-.header nav {
+header nav {
     order: 2;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo, .cart{
     order: 1;
@@ -141,7 +142,7 @@
     float: right;
 }
 
-/* Top Nav Bar */
+
 
 .menu {
     display: flex;
@@ -164,7 +165,6 @@
     color: #b64036;
 }
 
-/* Banner */
 
 .banner {
     background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), 
@@ -193,7 +193,7 @@
     padding: 10px 50px 130px 50px;
 }
 
-/* Hand-Crafted Styles Section */
+
 
 .hand-crafted {
     width: 100%;
@@ -224,7 +224,7 @@
     font-style: italic;
 }
 
-/* Container Collection */
+
 
 .container {
     display: flex;
@@ -300,7 +300,6 @@
     height: 50vw;
 }
 
-/* Featured Products */
 
 .featured {
     width: 100%;
@@ -320,7 +319,7 @@
     font-style: italic;
 }
 
-/* Carousel */
+
 
 .products {
     padding-bottom: 50px;
@@ -353,11 +352,11 @@
     color: #e2574c;
 }
 
-/* Sign Up Section */
+
 
 .sign-up {
     background: linear-gradient(0deg, rgba(61,61,61,0.3) 0%, rgba(61, 61, 61, 0.3) 100%),
-    url(../images/wave-bkgd.jpg) no-repeat bottom;
+    url(../images/wave-bkgd.jpg) bottom;
     width: 100%;
     text-align: center;
     color: white;
@@ -365,7 +364,7 @@
     padding-bottom: 55px;
     overflow: auto;
 }
-#form {
+form {
     background-color: white;
     display: inline-block;
     padding: 4px 4px 4px 24px;
@@ -415,7 +414,7 @@
     font-style: italic;
 }
 
-/* Footer */
+
 
 footer {
     background-color: #242424;
@@ -484,7 +483,6 @@ address {
 
 /*------------------------------ Breakpoints -----------------------------------*/
 
-/* TABLET 600px */
 
 @media all and (min-width: 600px) {
 
@@ -532,7 +530,7 @@ address {
     font-size: 1rem;
 }
 
-/* Banner */
+
 
 .banner {
     background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), 
@@ -541,9 +539,7 @@ address {
     justify-content: center;
 }
 
-/* Hand-Crafted Styles Section */
 
-/* Container Collection */
 
 .container{
     display: flex;
@@ -595,7 +591,7 @@ address {
     border-bottom: 3px solid white;
 }
 
-/* Featured Products*/
+
 
 .featured h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -603,19 +599,17 @@ address {
     padding: 60px 40px 40px 40px;
 }   
 
-/* Carousel */
+
 
 .carousel-cell {
     width: 50%;
 }
 
-/* Sign Up Section */
 
 .sign-up p {
     padding: 10px 40px 40px 40px;
 }
 
-/* Footer */
 
 footer {
     display: flex;
@@ -652,13 +646,11 @@ address {
     line-height: 1.5;
 }  
 
-/*------------------------------------------------------------------------------*/
 
-/* DESKTOP 1240px */
 
 @media all and (min-width: 1240px) {
 
-/* Nav Menu */
+
 .logo {
     width: 10%;
 }
@@ -672,7 +664,6 @@ address {
     width: 82%;
 }
 
-/* Banner */
 
 .banner {
     background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), 
@@ -701,8 +692,6 @@ address {
     text-shadow: 1px 1px 3px rgb(59, 59, 59);
     padding: 10px 50px 130px 50px;
 }
-
-/* Carousel */
 
 .carousel-cell {
     width: 25%;

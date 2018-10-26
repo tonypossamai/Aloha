@@ -10,7 +10,7 @@ $(function () {
     $('.sign-up').on('submit', 'form', function () {
         event.preventDefault();
         const $emailInput = $('#email');
-        if ($emailInput.val().length != 0) {
+        if ($emailInput.val().length !== 0) {
             alert('Thanks for subscribing!');
         } else {
             alert('Please enter a valid email');
