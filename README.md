@@ -50,7 +50,7 @@ And last but not least, the introduction to programming throughout these weeks, 
 
 ----
 ## Link
-You can check the final result of my project by clicking [here](https://tonypossamai.github.io/Aloha/)
+You can check the final result of my project by clicking [here](https://tonypossamai.github.io/Aloha-Apparel/)
 <br>
 <br>
 <br>
