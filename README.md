@@ -12,22 +12,6 @@ Following the RWD principles, three breakpoints for the website have been create
 - Desktop (1240px)
 
 ---
-## Mobile
-<img src="images/screenshot-aloha-mobile-banner.png">
-<br>
-<br>
-
----
-## Tablet
-<img src="images/screenshot-aloha-tablet-collection-carousel.png">
-<br>
-<br>
-
----
-## Desktop
-<img src="images/screenshot-aloha-desktop-carousel.png">
-
----
 ## Built with
 
 - HTML
@@ -47,12 +31,25 @@ A good website has to be responsive. And in order to do that a website has to be
 And last but not least, the introduction to programming throughout these weeks, gave me a basic understanding of how the programming logic works. Based on that I was also able to apply what I have learnt with JavaScript and jQuery on my first project.
 
 
-
 ----
 ## Link
 You can check the final result of my project by clicking [here](https://tonypossamai.github.io/Aloha-Apparel/)
 <br>
 <br>
+
+
+---
+## Mobile
+<img src="images/screenshot-aloha-mobile-banner.png">
 <br>
 <br>
-Thank you!
+
+---
+## Tablet
+<img src="images/screenshot-aloha-tablet-collection-carousel.png">
+<br>
+<br>
+
+---
+## Desktop
+<img src="images/screenshot-aloha-desktop-carousel.png">
