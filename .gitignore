@@ -1,4 +1,4 @@
-# Ignore system files
+# Ignore system files #
 .DS_Store
 .DS_Store?
 ._*
@@ -8,11 +8,13 @@ ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
 
-# Ignore npm packages
+# Ignore npm packages #
 node_modules/
 
-# Ignore fonts file
-fonts/
 
-# Ignore images file
-images/
+/*
+!css/
+!js/
+!index.html
+!.gitignore
+!README.md
