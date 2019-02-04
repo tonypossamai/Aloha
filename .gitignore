@@ -11,7 +11,7 @@ ehthumbs.db
 # Ignore npm packages #
 node_modules/
 
-
+# Ignore everything except the following #
 /*
 !css/
 !js/
