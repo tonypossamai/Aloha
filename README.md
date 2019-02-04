@@ -37,19 +37,3 @@ You can check the final result of my project by clicking [here](https://tonyposs
 <br>
 <br>
 
-
----
-## Mobile
-<img src="images/screenshot-aloha-mobile-banner.png">
-<br>
-<br>
-
----
-## Tablet
-<img src="images/screenshot-aloha-tablet-collection-carousel.png">
-<br>
-<br>
-
----
-## Desktop
-<img src="images/screenshot-aloha-desktop-carousel.png">
